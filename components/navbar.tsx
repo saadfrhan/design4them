@@ -9,14 +9,13 @@ import {
 	NavigationMenuContent,
 	NavigationMenuItem,
 	NavigationMenuLink,
-	NavigationMenuList,
 	NavigationMenuTrigger,
-	navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { Button } from "./ui/button"
 import { Mail } from "lucide-react"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
+import ActionButton from './action-button';
 
 const components: { title: string; href: string; }[] = [
 	{
@@ -56,15 +55,15 @@ const components: { title: string; href: string; }[] = [
 export default function Navbar() {
 	const pathname = usePathname();
 	return (
-		<div className="max-w-[90rem]  mx-4 mt-8 w-full space-y-3 max-sm:mt-0 lg:mx-auto lg:px-3">
+		<div className="max-w-[90rem] max-[840px]:hidden mx-4 mt-8 w-full space-y-3 max-sm:mt-0 lg:mx-auto lg:px-3">
 			<div className="flex justify-between w-full">
 				<div className="flex gap-2 items-center">
-					<Image alt="Design4Them" src="/images/logo.png" width="200" height="200" />
+					<Image alt="Design4Them" src="/images/logo.png" width="200" height="200" priority={true} />
 					<div className="flex gap-2 items-center text-xs">
 						<Mail className="w-3 h-3 text-primary" /> <Link href="mailto:saadfarhan347@gmail.com" target="_blank" className="hover:text-primary">saadfarhan347@gmail.com</Link>
 					</div>
 				</div>
-				<div className="flex gap-2 items-center text-xs text-primary">
+				<div className="flex gap-3 items-center text-xs text-primary">
 					<p>Call Us</p>
 					<div className="flex gap-2 items-center">
 						<Image src="/images/canada.png" alt="Canada" width="20" height="20" className="w-8 h-6" />
@@ -74,6 +73,9 @@ export default function Navbar() {
 						<Image src="/images/usa.png" alt="USA" width="20" height="20" className="w-8 h-6" />
 						<Link href="tel:407 676 5776" target="_blank">Book a call: 407 676 5776</Link>
 					</div>
+
+					<ActionButton />
+
 				</div>
 			</div>
 			<div className="justify-between flex">
