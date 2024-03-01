@@ -18,6 +18,9 @@ const config = {
 				"2xl": "1400px",
 			},
 		},
+		backgroundImage: {
+			"black-bg": "/images/bg-black.png"
+		},
 		extend: {
 			colors: {
 				border: "hsl(var(--border))",

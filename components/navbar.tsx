@@ -84,7 +84,7 @@ export default function Navbar() {
 				<NavigationMenu className="list-none">
 					<NavigationMenuItem>
 						<NavigationMenuTrigger className={`${pathname.split("/")[0] === "services"}`}>Services</NavigationMenuTrigger>
-						<NavigationMenuContent>
+						<NavigationMenuContent className="z-50">
 							<ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
 								{components.map((component) => (
 									<ListItem
