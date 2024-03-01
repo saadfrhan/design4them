@@ -65,23 +65,25 @@ export default function MobileNavbar() {
 	const [openContact, setOpenContact] = React.useState(false);
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 	return (
-		<div className="min-[841px]:hidden w-full space-y-3 p-3">
+		<div className="lg:hidden w-full space-y-3 p-3">
 			<div className="flex justify-between flex-col w-full">
 				<div className="flex gap-2 items-center w-full justify-between">
 					<Image alt="Design4Them" src="/images/logo.png" width="160" height="160" className='h-18! w-48' />
 					<Button size="icon" variant="link" onClick={() => setOpenContact(!openContact)}>
-						{openContact ? <UpArrow className='w-6 h-6' /> : <DownArrow className='w-4 h-4' />}
+						{openContact ? <UpArrow className='w-6 h-6' /> : <DownArrow className='w-6 h-6' />}
 					</Button>
 				</div>
-				{openContact && <div className="flex gap-2 flex-col text-xs text-primary">
-					<p>Call Us</p>
-					<div className="flex gap-2 items-center">
-						<Image src="/images/canada.png" alt="Canada" width="20" height="20" className="w-8 h-6" />
-						<Link href="tel:(647) 495-6338" target="_blank">Call Us: (647) 495-6338</Link>
-					</div>
-					<div className="flex gap-2 items-center">
-						<Image src="/images/usa.png" alt="USA" width="20" height="20" className="w-8 h-6" />
-						<Link href="tel:407 676 5776" target="_blank">Book a call: 407 676 5776</Link>
+				{openContact && <div className="flex gap-2 flex-col text-xs text-primary md:flex-row max-md:flex-col md:justify-around">
+					<div className='flex max-md:flex-col max-md:gap-y-3 md:justify-center md:items-center md:gap-x-3 max-md:py-2 max-md:w-full'>
+						<p>Call Us</p>
+						<div className="flex gap-2 items-center">
+							<Image src="/images/canada.png" alt="Canada" width="20" height="20" className="w-8 h-6" />
+							<Link href="tel:(647) 495-6338" target="_blank">Call Us: (647) 495-6338</Link>
+						</div>
+						<div className="flex gap-2 items-center">
+							<Image src="/images/usa.png" alt="USA" width="20" height="20" className="w-8 h-6" />
+							<Link href="tel:407 676 5776" target="_blank">Book a call: 407 676 5776</Link>
+						</div>
 					</div>
 					<ActionButton />
 				</div>}

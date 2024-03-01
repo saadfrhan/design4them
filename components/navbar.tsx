@@ -55,7 +55,7 @@ const components: { title: string; href: string; }[] = [
 export default function Navbar() {
 	const pathname = usePathname();
 	return (
-		<div className="max-w-[90rem] max-[840px]:hidden mx-4 mt-8 w-full space-y-3 max-sm:mt-0 lg:mx-auto lg:px-3">
+		<div className="max-w-[90rem] max-lg:hidden m-4 w-full space-y-3 max-sm:mt-0 lg:mx-auto lg:px-3">
 			<div className="flex justify-between w-full">
 				<div className="flex gap-2 items-center">
 					<Image alt="Design4Them" src="/images/logo.png" width="200" height="200" className='h-18 w-48' priority={true} />
