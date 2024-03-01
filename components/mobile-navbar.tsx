@@ -68,7 +68,7 @@ export default function MobileNavbar() {
 		<div className="min-[841px]:hidden w-full space-y-3 p-3">
 			<div className="flex justify-between flex-col w-full">
 				<div className="flex gap-2 items-center w-full justify-between">
-					<Image alt="Design4Them" src="/images/logo.png" width="160" height="160" />
+					<Image alt="Design4Them" src="/images/logo.png" width="160" height="160" className='h-18! w-48' />
 					<Button size="icon" variant="link" onClick={() => setOpenContact(!openContact)}>
 						{openContact ? <UpArrow className='w-6 h-6' /> : <DownArrow className='w-4 h-4' />}
 					</Button>

@@ -58,7 +58,7 @@ export default function Navbar() {
 		<div className="max-w-[90rem] max-[840px]:hidden mx-4 mt-8 w-full space-y-3 max-sm:mt-0 lg:mx-auto lg:px-3">
 			<div className="flex justify-between w-full">
 				<div className="flex gap-2 items-center">
-					<Image alt="Design4Them" src="/images/logo.png" width="200" height="200" priority={true} />
+					<Image alt="Design4Them" src="/images/logo.png" width="200" height="200" className='h-18 w-48' priority={true} />
 					<div className="flex gap-2 items-center text-xs">
 						<Mail className="w-3 h-3 text-primary" /> <Link href="mailto:saadfarhan347@gmail.com" target="_blank" className="hover:text-primary">saadfarhan347@gmail.com</Link>
 					</div>
