@@ -22,7 +22,7 @@ export default function Header() {
 	};
 
 	return (
-		<header className="relative flex items-center h-[80vh] mb-12 overflow-hidden">
+		<header className="relative flex items-center h-[80vh] overflow-hidden">
 			<div className="relative z-30 pt-18 px-20 max-sm:p-2 w-full flex flex-col gap-y-3">
 				<div className="max-w-3xl flex flex-col gap-y-3">
 					<h1 className="scroll-m-20 text-4xl font-medium tracking-tight lg:text-5xl">

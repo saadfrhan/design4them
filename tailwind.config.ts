@@ -18,10 +18,15 @@ const config = {
 				"2xl": "1400px",
 			},
 		},
-		backgroundImage: {
-			"black-bg": "/images/bg-black.png"
-		},
 		extend: {
+			backgroundImage: {
+				"black-bg": "url(/images/black_bg.svg)",
+				"three-bg": "url(/images/bg-3.svg)",
+				"previous-work": "url(/images/previous-work.svg)",
+				"call-bg": "url(/images/call-bg.svg)",
+				"quality": "url(/images/quality.svg)",
+				"pricing": "url(/images/pricing.svg)"
+			},
 			colors: {
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",

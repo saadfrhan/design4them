@@ -74,7 +74,7 @@ export default function Navbar() {
 						<Link href="tel:407 676 5776" target="_blank">Book a call: 407 676 5776</Link>
 					</div>
 
-					<ActionButton />
+					<ActionButton label="LET'S GET STARTED" />
 
 				</div>
 			</div>

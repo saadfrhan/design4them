@@ -4,12 +4,13 @@
  
 @layer base {
   :root {
+		 --gradient: linear-gradient(to top left,#091E3A,#2F80ED,#2D9EE0);
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 0 0% 13.33%;
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 13.33%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 13.33%;
     --primary: 221.2 83.2% 53.3%;
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96.1%;
@@ -27,13 +28,13 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 0 0% 13.33%;
     --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
+    --card: 0 0% 13.33%;
     --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
+    --popover: 0 0% 13.33%;
     --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
+    --primary: 178.98 98.88% 34.9%;
     --primary-foreground: 222.2 47.4% 11.2%;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -56,4 +57,12 @@
   body {
     @apply bg-background text-foreground;
   }
+
+	.div-gradient {
+		   background: linear-gradient(299.49deg, rgba(4, 180, 176, 0.47) 1.64%, rgba(4, 100, 98, 0.18) 82.22%)
+	}
+
+	.green-linear {
+		background: linear-gradient(96.61deg, #00615F -31.43%, #01B1AE 135.89%);
+	}
 }

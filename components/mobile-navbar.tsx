@@ -85,7 +85,7 @@ export default function MobileNavbar() {
 							<Link href="tel:407 676 5776" target="_blank">Book a call: 407 676 5776</Link>
 						</div>
 					</div>
-					<ActionButton />
+					<ActionButton label="LET'S GET STARTED" />
 				</div>}
 			</div>
 			<div className='flex w-full items-center justify-between'>
