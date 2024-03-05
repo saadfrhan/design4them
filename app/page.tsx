@@ -1,8 +1,9 @@
 import ActionButton from "@/components/action-button";
 import Header from "@/components/header";
 import TabsWithFlexGrid from "@/components/tabs-with-flex-grid";
+import TabsWithFlexGrid2 from "@/components/tabs-with-flex-grid2";
 import { Card, CardContent } from "@/components/ui/card";
-import { labels, qualities } from "@/lib/data";
+import { labels, plans, qualities } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowCircleRight as ArrowCircleRight } from "react-icons/fa";
@@ -215,10 +216,12 @@ export default function Home() {
 			</section>
 			<div className="bg-call-bg px-7 pt-10 pb-8">
 				<div className="grid grid-cols-2 max-md:grid-cols-1 mx-auto max-w-7xl gap-5">
-					<div>
-						Design4Them is determined to provide exceptional branding, website
-						and digital marketing solutions to business and brands. We help you
-						create your brand. <Link href="#" className="hover:underline">Let’s create brands that build businesses.</Link>
+					<div className="max-w-[34rem] font-bold mx-auto">
+						<p>
+							Design4Them is determined to provide exceptional branding, website
+							and digital marketing solutions to business and brands. We help you
+							create your brand. <Link href="#" className="hover:underline">Let’s create brands that build businesses.</Link>
+						</p>
 					</div>
 					<div className="flex justify-center items-center flex-col">
 						<p>Give us a call:</p>
@@ -271,8 +274,8 @@ export default function Home() {
 						We like to serve the industry with persuasive and conceptual designs that rock the market. <br />
 						Creating an impact is what we do best and what we like to provide to every client with our pocket-friendly packages.
 					</p>
-					<TabsWithFlexGrid
-						labels={labels}
+					<TabsWithFlexGrid2
+						labels={plans}
 					/>
 				</div>
 			</section>

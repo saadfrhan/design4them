@@ -347,6 +347,231 @@ export const qualities = [
 
 export const plans = [
 	{
-		label: "Logo"
-	}
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}, {
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}, {
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}, {
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}, {
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}, {
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}, {
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
+	{
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
+	{
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
+	{
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
+	{
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
+	{
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
+	{
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
+	{
+		label: "Logo",
+		items: [{
+			name: "Basic Logo Package",
+			price: 99,
+			tagline: "Suitable for potential super-startups and brand revamps for companies.",
+			was: 118,
+			contains: [
+				"2 Custom Logo Design Concepts",
+				"1 Dedicated Designer",
+				"4 Revisions",
+				"48 to 72 hours TAT",
+				"100% Unique Design Guarantee",
+				"100% Satisfaction Guarantee",
+				"100% Money Back Guarantee *"
+			]
+		}]
+	},
 ]
