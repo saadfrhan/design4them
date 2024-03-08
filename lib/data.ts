@@ -449,7 +449,7 @@ export const plans = [
 		}]
 	},
 	{
-		label: "Logo",
+		label: "Website",
 		items: [{
 			name: "Basic Logo Package",
 			price: 99,
@@ -467,7 +467,7 @@ export const plans = [
 		}]
 	},
 	{
-		label: "Logo",
+		label: "Ecommerce Web Solution",
 		items: [{
 			name: "Basic Logo Package",
 			price: 99,
@@ -485,7 +485,7 @@ export const plans = [
 		}]
 	},
 	{
-		label: "Logo",
+		label: "Branding",
 		items: [{
 			name: "Basic Logo Package",
 			price: 99,
@@ -503,7 +503,7 @@ export const plans = [
 		}]
 	},
 	{
-		label: "Logo",
+		label: "Copywriting",
 		items: [{
 			name: "Basic Logo Package",
 			price: 99,
@@ -521,7 +521,7 @@ export const plans = [
 		}]
 	},
 	{
-		label: "Logo",
+		label: "Illustration",
 		items: [{
 			name: "Basic Logo Package",
 			price: 99,
@@ -539,7 +539,7 @@ export const plans = [
 		}]
 	},
 	{
-		label: "Logo",
+		label: "Digital Marketing",
 		items: [{
 			name: "Basic Logo Package",
 			price: 99,
@@ -557,7 +557,7 @@ export const plans = [
 		}]
 	},
 	{
-		label: "Logo",
+		label: "SEO",
 		items: [{
 			name: "Basic Logo Package",
 			price: 99,

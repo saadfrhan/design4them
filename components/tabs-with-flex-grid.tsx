@@ -21,7 +21,7 @@ export default function TabsWithFlexGrid(
 		<div className="space-y-6">
 			<div className="flex max-lg:max-w-[90vw] lg:max-w-full max-lg:overflow-x-auto mx-auto px-3 justify-center items-center">
 				{labels.map(({ label }, index) => (
-					<p key={index} onClick={() => setActiveTab(index)} className={`pb-2 font-bold border-b-2 px-6 whitespace-nowrap py-8 ${activeTab === index ? "border-b-primary" : "border-b-secondary"}`}>
+					<p key={index} onClick={() => setActiveTab(index)} className={`font-bold border-b-4 px-4 whitespace-nowrap text-xs py-3 ${activeTab === index ? "border-b-primary" : "border-gray-600"}`}>
 						{label}
 					</p>
 				))}
