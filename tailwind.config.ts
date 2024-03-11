@@ -33,6 +33,7 @@ const config = {
         partner: "url(/images/partner.svg)",
         "partner-up": "url(/images/partner-up.svg)",
         business: "url(/images/business.svg)",
+        contact: "url(/images/contact.svg)",
       },
       colors: {
         border: "hsl(var(--border))",

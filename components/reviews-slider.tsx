@@ -21,9 +21,12 @@ export default function ReviewsSlider() {
     >
       <CarouselContent className="-ml-1">
         {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index} className="pl-1 md:basis-1/2">
+          <CarouselItem
+            key={index}
+            className="pl-1 md:basis-1/2 max-md:basis-full"
+          >
             <div className="p-1">
-              <Card className="border-primary">
+              <Card className="border-primary w-fit">
                 <CardContent className="flex flex-col p-6">
                   <h4 className="font-bold">
                     We were guided through the process with great care and focus

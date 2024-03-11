@@ -1,12 +1,15 @@
 import ActionButton from "@/components/action-button";
 import Bullet from "@/components/bullet";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
+import PartnerCard from "@/components/partner-card";
 import ReviewsSlider from "@/components/reviews-slider";
 import TabsWithFlexGrid from "@/components/tabs-with-flex-grid";
 import TabsWithFlexGrid2 from "@/components/tabs-with-flex-grid2";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { labels, plans, qualities } from "@/lib/data";
+import { labels, partner_labels, plans, qualities, shorts } from "@/lib/data";
+import { LocateIcon, Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowCircleRight as ArrowCircleRight } from "react-icons/fa";
@@ -514,7 +517,7 @@ export default function Home() {
         <p className="text-xs mt-3 mb-5 text-center">
           Creating Brilliance Together.
         </p>
-        <div className="mx-auto max-w-7xl">
+        <div className="flex justify-center items-center w-full max-w-7xl">
           <ReviewsSlider />
         </div>
       </div>
@@ -528,7 +531,111 @@ export default function Home() {
           team members and a lot of passion for marketing. Contact Us Now.
           Constant Client Coordination Supreme Customer Satisfaction
         </p>
+        <div className="flex flex-wrap items-center gap-x-16 gap-y-8 justify-center">
+          {partner_labels.map(({ label, image }, index) => (
+            <PartnerCard key={index} label={label} image={image} />
+          ))}
+        </div>
+        <div className="w-full mt-12 max-w-7xl mx-auto flex border-primary justify-between p-10 max-md:p-5 pr-16 items-center border flex-wrap font-bold rounded-full max-md:rounded-md max-md:gap-y-6">
+          <p className="text-primary">
+            Call Us And Discuss Your Project <br /> With Our Experts Today
+          </p>
+          <div className="flex gap-4 items-center">
+            <Phone className="text-primary max-md:hidden w-10 h-10" />
+            <div>
+              <p className="text-primary text-xs max-md:text-base max-md:flex max-md:gap-2 max-md:items-center">
+                <Phone className="text-primary md:hidden w-6 h-6" />
+                Call us now
+              </p>
+              <p className="font-bold">(647) 495-6338</p>
+            </div>
+          </div>
+          <div className="flex gap-2 items-center">
+            <Mail className="text-primary max-md:hidden w-10 h-10" />
+            <div>
+              <p className="text-primary text-xs max-md:text-base max-md:flex max-md:gap-2 max-md:items-center">
+                <Mail className="text-primary md:hidden w-6 h-6" /> Place an
+                Order
+              </p>
+              <p className="font-bold">sales@design4them.com</p>
+            </div>
+          </div>
+        </div>
       </div>
+      <div className="w-full bg-contact bg-no-repeat bg-cover gap-x-8 gap-y-4 flex justify-center items-center flex-wrap p-10 max-md:p-5 max-md:justify-start">
+        <div>
+          <p className="text-black font-bold text-center max-md:flex max-md:items-center max-md:gap-2">
+            <Mail width="20" className="md:hidden" height="20" />
+            Email
+          </p>
+          <div className="flex gap-2 items-center">
+            <Image
+              src="/images/icons/contact.svg"
+              alt="sales@design4them.com"
+              width="100"
+              className="max-md:hidden"
+              height="100"
+            />
+            <p className="font-bold">sales@design4them.com</p>
+          </div>
+        </div>
+        <div>
+          <p className="text-black font-bold text-center max-md:flex max-md:items-center max-md:gap-2">
+            <LocateIcon width="20" className="md:hidden" height="20" />
+            Address
+          </p>
+          <div className="flex gap-2 items-center">
+            <Image
+              src="/images/icons/address.svg"
+              alt="350 Bay St. Toronto, ON M5H 2S6, Canada"
+              width="100"
+              className="max-md:hidden"
+              height="100"
+            />
+            <p className="font-bold">350 Bay St. Toronto, ON M5H 2S6, Canada</p>
+          </div>
+        </div>
+        <div>
+          <p className="text-black font-bold text-center max-md:flex max-md:items-center max-md:gap-2">
+            <Phone width="20" className="md:hidden" height="20" />
+            Phone
+          </p>
+          <div className="flex gap-2 items-center">
+            <Image
+              src="/images/icons/phone.svg"
+              alt="Call Us (647) 495-6338"
+              width="100"
+              className="max-md:hidden"
+              height="100"
+            />
+            <p className="font-bold">Call Us (647) 495-6338</p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-business w-full bg-no-repeat p-6 bg-cover">
+        <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-center">
+          Hear it from our Happy Clients!
+        </h3>
+        <p className="text-xs mt-3 mb-5 text-center">
+          Creating Brilliance Together.
+        </p>
+        <div className="grid grid-cols-3 mx-auto max-w-7xl w-full max-md:grid-cols-2 max-sm:grid-cols-1 gap-8">
+          {shorts.map(({ title, link }, index) => (
+            <div key={index}>
+              <iframe
+                width="368"
+                height="655"
+                className="w-full rounded-2xl max-md:h-96"
+                src={`https://www.youtube.com/embed/${link}`}
+                title={title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          ))}
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -88,4 +88,8 @@
 	.cbs-gradient {
 		background: linear-gradient(180deg, rgba(1, 177, 174, 0.33) 0%, rgba(54, 211, 209, 0) 52.6%, rgba(1, 177, 174, 0.33) 100%);
 	}
+
+	.footer-shadow {
+		box-shadow: 0px 0px 37px -6px #01B1AE;
+	}
 }
